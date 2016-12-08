@@ -7,6 +7,8 @@ using System.Threading.Tasks;
  * Nicolas Béland
  * 2016-11-29
  * Question no 5 de l'examen formatif 3
+ * CC : Très propre ton code, continue ton beau travail!!
+ * CC : 14/15
  */
 namespace Question5
 {
@@ -16,7 +18,7 @@ namespace Question5
         {
 
             bool[] tableau = new bool[100];
-            string[] tableauJoueur = new string[100];
+            string[] tableauJoueur = new string[100];   // Pourquoi 2 tableaux?
             Random random = new Random();
             int position = 0;
             int nbEssai = 0;
@@ -25,7 +27,7 @@ namespace Question5
             {
                 touche = "";
 
-                for (int i = 0; i < tableau.Length; i++)
+                for (int i = 0; i < tableau.Length; i++)    // Super!
                 {
                     if (random.Next(0, 2) == 1)
                     {
@@ -46,7 +48,7 @@ namespace Question5
                 //Vérification automatique si le jeu dois se terminer maintenant
                 if (tableau[position + 1] == false && tableau[position + 2] == false && tableau[position + 3] == false && tableau[position + 4] == false) //Impossible de continuer car 4 faux
                 {
-                    touche = "Q";
+                    touche = "Q";   // Pas clair, faire une instruction plus significative (un booléen)
                 }
                 else if (position == 0 && tableau[2] == false && tableau[4] == false) //Bug joueur qui ne peut pas avancé directe au début
                 {
@@ -154,7 +156,7 @@ namespace Question5
                     Console.WriteLine("Position : " + position);
                     Console.WriteLine("Nombre d'essai : " + nbEssai);
                     Console.ReadLine();
-                    touche = "Q";
+                    touche = "Q";   // Pas clair
                 }
                 else if (position == tableau.Length) //Arrivé à la fin
                 {
@@ -162,15 +164,15 @@ namespace Question5
                     Console.WriteLine("Position : " + position);
                     Console.WriteLine("Nombre d'essai : " + nbEssai);
                     Console.ReadLine();
-                    touche = "Q";
+                    touche = "Q";   // Pas clair
                 }
                 else if (position - 4 >= 0 && tableau[position - 1] == false && tableau[position - 2] == false && tableau[position - 3] == false && tableau[position + 2] == false && tableau[position + 4] == false) //Impossible de bouger
                 {
-                    Console.WriteLine("Impossible de continuer, partie terminé!");
+                    Console.WriteLine("Impossible de continuer, partie terminé!"); // terminée
                     Console.WriteLine("Position : " + position);
                     Console.WriteLine("Nombre d'essai : " + nbEssai);
                     Console.ReadLine();
-                    touche = "Q";
+                    touche = "Q";   // Pas clair
                 }
 
             }

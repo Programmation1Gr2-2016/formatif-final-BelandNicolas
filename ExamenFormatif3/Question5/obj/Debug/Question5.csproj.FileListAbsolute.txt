@@ -10,3 +10,9 @@ C:\Users\falco\Google Drive\Programmation 1\Programmation1\ExamenFormatif3\Quest
 C:\Users\falco\Google Drive\Programmation 1\Programmation1\ExamenFormatif3\Question5\bin\Debug\Question5.exe
 C:\Users\falco\Google Drive\Programmation 1\Programmation1\ExamenFormatif3\Question5\bin\Debug\Question5.pdb
 C:\Users\falco\Google Drive\Programmation 1\Programmation1\ExamenFormatif3\Question5\obj\Debug\Question5.csprojResolveAssemblyReference.cache
+C:\Users\ccroteau\Google Drive\VS\Projects\formatif-final-BelandNicolas\ExamenFormatif3\Question5\bin\Debug\Question5.exe.config
+C:\Users\ccroteau\Google Drive\VS\Projects\formatif-final-BelandNicolas\ExamenFormatif3\Question5\obj\Debug\Question5.exe
+C:\Users\ccroteau\Google Drive\VS\Projects\formatif-final-BelandNicolas\ExamenFormatif3\Question5\obj\Debug\Question5.pdb
+C:\Users\ccroteau\Google Drive\VS\Projects\formatif-final-BelandNicolas\ExamenFormatif3\Question5\bin\Debug\Question5.exe
+C:\Users\ccroteau\Google Drive\VS\Projects\formatif-final-BelandNicolas\ExamenFormatif3\Question5\bin\Debug\Question5.pdb
+C:\Users\ccroteau\Google Drive\VS\Projects\formatif-final-BelandNicolas\ExamenFormatif3\Question5\obj\Debug\Question5.csprojResolveAssemblyReference.cache
